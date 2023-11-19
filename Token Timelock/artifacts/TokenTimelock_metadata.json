@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Token",
+						"name": "_token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_beneficiary",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_releaseTime",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "beneficiary",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "release",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "releaseTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract Token",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Token Timelock/TokenTimelock.sol": "TokenTimelock"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Token Timelock/Token.sol": {
+			"keccak256": "0x0f0b41f29f3a7a0b03731ef48d9bee374e63ca1d961cbbdbc2a1038c41216381",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3cd447574b37860b39685165999c094549a8b96ab357d4599a8e0b00c1c44466",
+				"dweb:/ipfs/QmPWyn7ujxVxcYVFfanGQ8f2v7VtHWSRNqmtoBHVnTzWy7"
+			]
+		},
+		"Token Timelock/TokenTimelock.sol": {
+			"keccak256": "0x030d0fd6962347595a1608248847162f0b79b2fb036a2063973d1098a27756e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://04816801f06f59d0d03c28b6c5bae237006a4adf4fbca9c4aec742ed9824f80d",
+				"dweb:/ipfs/Qmf5jgWCUf1QDeGV8U9xZKnQbhRzH4Q6NT85HFZGoFfftT"
+			]
+		}
+	},
+	"version": 1
+}
