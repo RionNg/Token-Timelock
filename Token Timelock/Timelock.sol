@@ -26,5 +26,4 @@ contract Timelock {
         require(block.timestamp >= releaseTime);
         (beneficiary).transfer(address(this).balance);
     }
-
 }
